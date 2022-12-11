@@ -1,0 +1,113 @@
+body {
+  background: black;
+  font-family: Helvetica,sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  color: seashell;
+}
+
+nav {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+#brand-logo {
+  height: 50px;
+}
+
+nav li {
+  text-decoration: underline;
+}
+
+section {
+}
+
+#section-mission {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission-body {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1tsmmqy*_ga*NDQ0NTg4NjkxMy4xNjY5MDkzODcz*_ga_3LRZM6TM9L*MTY3MDcyMjgwNy4yMC4xLjE2NzA3MjQ5MzIuNjAuMC4w");
+  height: 700px;
+  width: 1200px;
+  padding-top: 350px;
+}
+
+#mission-paragraph {
+  background-color: black;
+  width: 100%;
+}
+
+#section-tea {
+  width: 1000px;
+  text-align: center;
+}
+
+#body-tea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#tea-paragraph {
+  text-align: center;
+}
+
+#section-tea .card{
+  background-color: black;
+  text-align: center;
+}
+
+.tea-image {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+#section-locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-locations-body {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*traj1e*_ga*NDQ0NTg4NjkxMy4xNjY5MDkzODcz*_ga_3LRZM6TM9L*MTY3MDczNjIyMS4yMi4xLjE2NzA3Mzc2NTAuNjAuMC4w");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#locations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.locations-address{
+  background-color: black;
+  width: 320px;
+  margin: 15px;
+  padding: 20px;
+  opacity: 1;
+}
+
+footer {
+  height: 200px;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+#footer-copyright {
+  margin-left: 20px;
+}
